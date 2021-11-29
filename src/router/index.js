@@ -6,7 +6,6 @@ import UserExpenseDetails from '../views/UserExpenseDetails.vue'
 import UserInfoEdit from '../views/UserInfoEdit.vue'
 import ExitService from '../views/ExitService.vue'
 import AdminExpenseDetails from '../views/AdminExpenseDetails.vue'
-import AdminExpenseDetails2 from '../views/AdminExpenseDetails2.vue'
 import EnterpriseStatus from '../views/EnterpriseStatus.vue'
 
 Vue.use(VueRouter)
@@ -36,11 +35,6 @@ const routes = [
     path: '/adminexpense',
     name: 'AdminExpenseDetails',
     component: AdminExpenseDetails
-  },
-  {
-    path: '/adminexpense2',
-    name: 'AdminExpenseDetails2',
-    component: AdminExpenseDetails2
   },
   {
     path: '/enterprisestats',
