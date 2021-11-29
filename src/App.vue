@@ -1,32 +1,38 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div>
+    <!-- <div id="dev-bar">
+      <h4>Developer Mode</h4>
+      <div id="theme-selector">
+        <h5>Select a Theme:</h5>
+        <select name="" id="theme_select">
+          <option value="t1">Vortex</option>
+          <option value="t2">Theme 2</option>
+          <option value="t3">Theme 3</option>
+        </select>
+      </div>
+    </div> -->
+    <VortexLayout>
+      <router-view/>
+    </VortexLayout>
   </div>
 </template>
 
+<script>
+import VortexLayout from './components/layouts/Vortex/Vortex.vue'
+
+export default {
+  name: 'App',
+  components: {
+    VortexLayout
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+#dev-bar {
+  background-color: #44c5ee;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 </style>
