@@ -33,5 +33,32 @@ export default {
 </script>
 
 <style>
-
+#newsletter {
+  background: #44c5ee;
+  padding: 60px 0;
+  text-align: center;
+  color: #fff; }
+  #newsletter .form-container {
+    margin-top: 40px; }
+    #newsletter .form-container .form-inline {
+      left: 50px;
+      position: relative; }
+    #newsletter .form-container .form-control::-webkit-input-placeholder {
+      color: #fff; }
+    #newsletter .form-container .form-control:-moz-placeholder {
+      color: #fff; }
+    #newsletter .form-container .form-control::-moz-placeholder {
+      color: #fff; }
+    #newsletter .form-container .form-control:-ms-input-placeholder {
+      color: #fff; }
+    #newsletter .form-container .form-control {
+      width: 50%;
+      height: 50px;
+      border-radius: 50px;
+      border: 2px solid #fff;
+      background: transparent;
+      color: #fff; }
+    #newsletter .form-container .btn {
+      position: relative;
+      right: 143px; }
 </style>

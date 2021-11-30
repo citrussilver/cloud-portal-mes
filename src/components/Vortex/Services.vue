@@ -79,5 +79,13 @@ export default {
 </script>
 
 <style>
-
+#services {
+  text-align: center; }
+  #services .icon-box {
+    margin-top: 60px; }
+    #services .icon-box i {
+      font-size: 46px;
+      color: #f23c7e; }
+    #services .icon-box h4 {
+      margin: 25px 0; }
 </style>

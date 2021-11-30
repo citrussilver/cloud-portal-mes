@@ -113,5 +113,16 @@ export default {
 </script>
 
 <style>
-
+#features {
+  background: #44c5ee;
+  color: #fff;
+  padding: 80px 0; }
+  #features .media {
+    margin: 35px 0; }
+    #features .media i {
+      color: #fff;
+      font-size: 46px;
+      margin-right: 25px; }
+  #features img {
+    margin-top: 80px; }
 </style>

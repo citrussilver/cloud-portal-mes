@@ -7,14 +7,14 @@
                         <h1>Welcome To MES Cloud Portal</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quibusdam. Sit, quas tempora quia officia!</p>
                         <a href="#" class="btn btn-transparent">Get Started</a>
-                        <a class="btn btn-blue popup-youtube" href="https://www.youtube.com/watch?v=Q8TXgCzxEnw">
+                        <!-- <a class="btn btn-blue popup-youtube" href="https://www.youtube.com/watch?v=Q8TXgCzxEnw">
                             <i class="material-icons">play_circle_filled</i>Watch Video
-                        </a>
+                        </a> -->
                     </div>
                     
                     <!-- Sign Up -->
                     <div class="col-md-5 col-md-offset-1">
-                        <form class="signup-form">
+                        <!-- <form class="signup-form">
                             <h2 class="text-center">Signup Now</h2>
                             <hr>
                             <div class="form-group">
@@ -32,7 +32,7 @@
                             <div class="form-group text-center">
                                 <button type="submit" class="btn btn-blue btn-block">Start Now</button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>

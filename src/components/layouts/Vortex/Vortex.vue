@@ -3,61 +3,27 @@
         <header>
             <Navbar/>
         </header>
-         <Banner/> 
-        <About/>
-        <Story/>
-        <Services/>
-        <Features/>
-        <Price/>
-        <Team/>
-        <Clients/>
-        <Newsletter/>
-        <main-content>
-            <slot>Main Content Here..</slot>
-        </main-content>
+        <div id="main-content">
+            <slot><Main/></slot>
+        </div>
         <footer>
             <Footer />
         </footer>
-        
-           
-            
-            <!-- <Contact/> -->
-        
-    
-    <!-- <Modal/> -->
+        <Contact/>
+        <!-- <Modal/> -->
 </div>
 </template>
 
 <script>
 import Navbar from '../../Vortex/Navbar.vue'
-import Banner from '../../Vortex/Banner.vue'
-import About from '../../Vortex/About.vue'
-import Story from '../../Vortex/Story.vue'
-import Services from '../../Vortex/Services.vue'
-import Features from '../../Vortex/Features.vue'
-import Price from '../../Vortex/Price.vue'
-import Team from '../../Vortex/Team.vue'
-import Clients from '../../Vortex/Clients.vue'
-import Newsletter from '../../Vortex/Newsletter.vue'
-import Contact from '../../Vortex/Contact.vue'
+
 import Footer from '../../Vortex/Footer.vue'
-import Modal from '../../Vortex/Modal.vue'
+// import Modal from '../../Vortex/Modal.vue'
 
 export default {
     components: {
         Navbar,
-        Banner,
-        About,
-        Story,
-        Services,
-        Features,
-        Price,
-        Team,
-        Clients,
-        Newsletter,
-        Contact,
         Footer,
-        Modal
   },
 }
 </script>
@@ -75,7 +41,7 @@ header {
     height: 9rem;
 }
 
-main-content {
+#main-content {
     flex: 1;
 }
 </style>
