@@ -11,19 +11,26 @@
         </select>
       </div>
     </div> -->
-    <VortexLayout>
+    <VortexNFLayout>
       <router-view/>
-    </VortexLayout>
+    </VortexNFLayout>
+    <!-- <ScaffoldLayout>
+      <router-view/>
+    </ScaffoldLayout> -->
   </div>
 </template>
 
 <script>
+import VortexNFLayout from './components/layouts/Vortex/VortexNF.vue'
 import VortexLayout from './components/layouts/Vortex/Vortex.vue'
+import ScaffoldLayout from './components/layouts/Scaffold/Scaffold.vue'
 
 export default {
   name: 'App',
   components: {
-    VortexLayout
+    VortexLayout,
+    VortexNFLayout,
+    ScaffoldLayout
   }
 }
 </script>
