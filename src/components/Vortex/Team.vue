@@ -183,5 +183,29 @@ export default {
 </script>
 
 <style>
-
+#team {
+  text-align: center; }
+  #team .team-member {
+    background: #fff;
+    box-shadow: 0px 0px 60px 0px rgba(213, 216, 224, 0.7);
+    border: 0;
+    margin-top: 80px;
+    padding: 20px; }
+    #team .team-member h6 {
+      font-style: italic; }
+    #team .team-member .team-social ul {
+      padding: 0;
+      margin: 0; }
+    #team .team-member .team-social li {
+      display: inline-block; }
+      #team .team-member .team-social li a {
+        font-size: 20px;
+        padding: 12px;
+        color: #44c5ee;
+        -webkit-transition: 0.4s;
+                transition: 0.4s; }
+      #team .team-member .team-social li a:hover,
+      #team .team-member .team-social li a:focus,
+      #team .team-member .team-social li a:active {
+        color: #496174; }
 </style>

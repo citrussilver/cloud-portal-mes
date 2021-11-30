@@ -125,5 +125,39 @@ export default {
 </script>
 
 <style>
-
+#contact {
+  text-align: center; }
+  #contact .contact-info {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    background: #44c5ee;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+    padding: 30px;
+    color: #fff; }
+    #contact .contact-info i {
+      font-size: 46px; }
+  #contact #map {
+    width: 100%;
+    height: 500px; }
+  #contact .contact-forms {
+    padding: 80px 0; }
+    #contact .contact-forms h2 {
+      margin-bottom: 40px; }
+    #contact .contact-forms input:focus {
+      border-color: #44c5ee; }
+    #contact .contact-forms .form-control {
+      font-size: 16px;
+      padding: 20px 15px;
+      color: #555;
+      background-color: #fff;
+      border-radius: 3px;
+      border: 2px solid #999;
+      height: 38px;
+      box-shadow: none !important;
+      margin: 30px 0; }
+    #contact .contact-forms textarea {
+      height: 118px !important;
+      resize: none;
+      margin: 0; }
 </style>

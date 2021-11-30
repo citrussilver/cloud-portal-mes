@@ -18,15 +18,20 @@
                         <!-- <li><router-link to="/home">Home</router-link></li> -->
                         <li class="scroll"><a href="#home">Home</a></li>
                         <li class="scroll"><a href="#about">제품소개</a></li>
-                        <li class="scroll"><a href="#price">서비스</a></li>
+                        <li class="scroll"><router-link to="/price">서비스</router-link></li>
                         <li>
                             <div class="dropdown" style="position: relative; bottom: -3.25rem; margin: 0 1rem;">
-                                <router-link to="/userexpense" id="my-page-style-link">마이페이지</router-link>
+                                <li class="scroll">마이페이지</li>
                                 <div class="dropdown-content">
+                                    <!-- Fee / Expense details (user) -->
                                     <router-link to="/userexpense">요금내역(사용자)</router-link>
+                                    <!-- Modify Member Information (User) -->
                                     <router-link to="/userinfoedit">회원정보수정(사용자)</router-link>
-                                    <a href="#">서비스탈퇴(사용자)</a>
+                                    <!-- Exit Service (user) -->
+                                    <router-link to="/exitsvc">서비스탈퇴(사용자)</router-link>
+                                    <!-- Expense details (administrator) -->
                                     <router-link to="/adminexpense">요금내역(관리자)</router-link>
+                                    <!-- Enterprise status (Manager) -->
                                     <router-link to="/enterprisestats">업체현황(관리자)</router-link>
                                 </div>
                             </div>
@@ -34,9 +39,9 @@
                         <li class="scroll"><a href="#team">Team</a></li>
                         <li class="scroll"><a href="#clients">Clients</a></li>
                         <li class="scroll"><a href="#contact">Contact</a></li>
-                        <li class="button-holder">
+                        <!-- <li class="button-holder">
                             <button type="button" class="btn btn-blue navbar-btn" data-toggle="modal" data-target="#SignIn">Sign in</button>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

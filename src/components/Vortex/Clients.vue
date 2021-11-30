@@ -81,5 +81,29 @@ export default {
 </script>
 
 <style>
-
+#clients {
+  text-align: center; }
+  #clients #owl-clients {
+    margin: 60px 0; }
+    #clients #owl-clients .owl-pagination {
+      display: none; }
+  #clients #owl-testimonials {
+    margin: 60px 0; }
+    #clients #owl-testimonials .owl-pagination .owl-page.active span {
+      background: #f23c7e; }
+    #clients #owl-testimonials .owl-pagination .owl-page span {
+      border: 2px solid #f23c7e;
+      border-radius: 50%;
+      background: transparent;
+      opacity: 1;
+      -webkit-transition: all .3s ease-in-out;
+              transition: all .3s ease-in-out; }
+    #clients #owl-testimonials i {
+      font-size: 48px;
+      color: #f23c7e; }
+    #clients #owl-testimonials p {
+      width: 50%;
+      margin: 25px auto; }
+    #clients #owl-testimonials h3 {
+      color: #fff; }
 </style>
