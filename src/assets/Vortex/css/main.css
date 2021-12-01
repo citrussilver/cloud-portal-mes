@@ -6,10 +6,22 @@
     Author:         Gnawi Themes
     Last change:    8/29/2016
     Primary use:    Landing,Startup and Showcase.
+    Modified by: Lan
+    Modified date: Nov. 2021
 
 -------------------------------------------------------------------*/
 /*-- Imports (only visible on scss file) --*/
 @import "https://fonts.googleapis.com/css?family=Raleway:300,400,700";
+
+:root {
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 /*========================================
           Base Style
@@ -21,6 +33,37 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+
+/*========================================
+          Derived Container
+========================================*/
+
+.derived-container {
+  padding-right: 0.94rem;
+  padding-left: 0.94rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .derived-container {
+      width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .derived-container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .derived-container {
+      width: 750px;
+  }
+}
+
+
 
 .section-padding {
   padding: 6.25rem 0;
@@ -198,7 +241,7 @@ p {
   letter-spacing: 0.08em;
   -webkit-transition: 0.5s all;
           transition: 0.5s all;
-  box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+  /* box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6); */
   outline: none !important; }
 
 .btn-blue:hover,
@@ -503,7 +546,7 @@ p {
 }
     
 /*========================================
-           Header
+           Navbar header tag
 ========================================*/
 nav.navbar.bootsnav.navbar-fixed .navbar-brand {
   padding: 10px 15px;
@@ -599,16 +642,29 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 /*=======================================
     Left, Right spacing
 ========================================*/
-      
-  .common-rspacing {
+  
+  /* Right Spacing */
+  .r-spacing {
      margin-right: 1rem;
   }
-      
-  .l-spacing {
+
+  /* Big Right Spacing */
+  .b-r-spacing {
+    margin-right: 1rem;
+  }
+  
+  /* Left Spacing */
+
+  .lmargin {
+    margin-left: 1rem;
+  }
+
+  .lmargin-1dot5 {
     margin-left: 1.5rem;
   }
 
-  .s-l-spacing {
+  /* Small Left Spacing */
+  .s-lmargin {
     margin-left: 0.5rem;
   }
 
@@ -624,6 +680,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   .common-button {
     padding: 0.5rem 1.5rem;
     font-size: 2.5rem;
+    white-space: nowrap;
   }
 
 /*=======================================
@@ -639,11 +696,15 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 }
 
 /*=======================================
-  Details Content
+  Details Content w/ Border
 ========================================*/
 
 .details-content {
   border: 1px solid #000;
+}
+
+.details-content-2 {
+  border: 1px solid #d6d6d6;
 }
 
 
@@ -664,7 +725,7 @@ th {
 
 td {
   border: 1px solid #d6d6d6;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 
 td {
@@ -685,25 +746,59 @@ td {
 }
 
 /*========================================
-    Common Header Box and Text
+    Common Header Box and Text Styles
 ========================================*/
 
 .header-text-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem 30rem;
+  margin: 3rem 0;
   height: 4.5rem;
-  background-color: #f8cbad;
-  border: 1px solid #41719c;
-  border-radius: 0.5rem;
   text-align: center;
   white-space: nowrap;
 }
 
-.header-text-span {
+.colored-box-header {
+  /* width: 50%; */
+  /* margin: 3rem 45rem; */
+  margin: 3rem calc(30%);
+  border-radius: 0.2rem;
+  background-color: #97bbda;
+  color: #fff;
+  /* border: 1px solid #41719c; */
+}
+
+.plus-lr-margin {
+  margin: 3rem calc(42%);
+}
+
+.login-lr-margin {
+  margin: 3rem calc(32%);
+}
+
+.header-text-span, .underline-text {
   font-size: 3.5rem;
 }
+
+/* span.header-text-span::after {
+  margin-top: 0.6rem;
+  display: block;
+  content:'';
+  background-color: #496174;
+  width: calc(100%);
+  height: 2px;
+} */
+
+.underline-text::after {
+  margin-top: 0.6rem;
+  display: block;
+  content:'';
+  background-color: #496174;
+  width: calc(100%);
+  height: 2px;
+}
+
 
 /*========================================
     Bottom Margin

@@ -36,9 +36,22 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="scroll"><a href="#team">Team</a></li>
+                        <!-- <li class="scroll"><a href="#team">Team</a></li>
                         <li class="scroll"><a href="#clients">Clients</a></li>
-                        <li class="scroll"><a href="#contact">Contact</a></li>
+                        <li class="scroll"><a href="#contact">Contact</a></li> -->
+                        <li class="scroll">
+                            <div class="dropdown custom-dropdown">
+                                <li class="scroll">About us</li>
+                                <div class="dropdown-content">
+                                    <!-- About Us - Overview -->
+                                    <router-link to="/about-us">회사소개</router-link>
+                                    <!-- About Us - Contact Us -->
+                                    <router-link to="/contact">오시는길</router-link>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="scroll"><router-link to="/addmember">회원가입</router-link></li>
+                        <li class="scroll"><router-link to="/login">로그인</router-link></li>
                         <!-- <li class="button-holder">
                             <button type="button" class="btn btn-blue navbar-btn" data-toggle="modal" data-target="#SignIn">Sign in</button>
                         </li> -->

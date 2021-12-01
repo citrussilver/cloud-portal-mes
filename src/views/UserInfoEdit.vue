@@ -2,34 +2,33 @@
     <div>
         <div class="common-container">
             <div class="header-text-container">
-                <span class="header-text-span">회 원 정 보  수정</span>
+                <span class="underline-text">회 원 정보</span>
             </div>
             <div class="details-content">
+
                 <div class="grid-container">
                     <div id="grid-wrapper">
-                    <div class="grid-col" id="grid-col-labels">
-                        <label for="">회원 ID</label>
-                        <label for="">회원명</label>
-                        <label for="">비밀번호</label>
-                        <label for="">비밀번호확인</label>
-                        <label for="">이메일</label>
-                    </div>
-                    <div class="grid-col">
-                        <input type="text">
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <input type="text"><label style=" margin-left: 3rem;">회원명</label><input type="text">
+                        <div class="grid-col lmargin" id="grid-col-labels">
+                            <label for="">회원 ID</label>
+                            <label for="">회원명</label>
+                            <label for="">비밀번호</label>
+                            <label for="">비밀번호확인</label>
+                            <label for="">이메일</label>
                         </div>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <input type="text"><label style="white-space: nowrap; margin-left: 3rem;">HP 번호</label><input type="text">
+                        <div class="grid-col">
+                            <input type="text">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <input type="text"><label style=" margin-left: 3rem;">회원명</label><input type="text">
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <input type="text"><label style="white-space: nowrap; margin-left: 3rem;">HP 번호</label><input type="text" class="lmargin-1dot5">
+                            </div>
+                            <input type="text">
+                            <input type="text" style="width: 100%;">
                         </div>
-                        <input type="text">
-                        <input type="text" style="width: 100%;">
                     </div>
-                    <div class="grid-col"></div>
-                    <div class="grid-col"></div>
-                </div>
                 <div id="grid-wrapper">
-                    <div class="grid-col" id="grid-col-labels">
+                    <div class="grid-col lmargin" id="grid-col-labels">
                         <label for="">회사코드</label>
                         <label for="">산업군</label>
                         <label for="">사업자구분</label>
@@ -38,7 +37,7 @@
                     </div>
                     <div class="grid-col">
                         <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <input type="text"><label style="margin-left: 6.55rem">회사명</label><input type="text">
+                            <input type="text"><label style="margin-left: 6.55rem">회사명</label><input type="text" class="lmargin-1dot5">
                         </div>
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <select name="Icecream Flavours" class="custom-dropdown-kr">
@@ -47,7 +46,9 @@
                                 <option value="opt3">전자</option>
                                 <option value="opt4">전자</option>
                             </select>
-                            <label style=" margin-left: 3rem;">사업자번호</label><input type="text">
+                            <div>
+                                <label>사업자번호</label><input type="text" class="lmargin-1dot5">
+                            </div>
                         </div>
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <select name="Icecream Flavours" class="custom-dropdown-kr">
@@ -56,13 +57,13 @@
                                 <option value="opt3">법인</option>
                                 <option value="opt4">법인</option>
                             </select>
-                            <label style="white-space: nowrap; margin-left: 4.55rem;">대표자명</label><input type="text">
+                            <div>
+                                <label style="white-space: nowrap;">대표자명</label><input type="text" class="lmargin-1dot5">
+                            </div>
                         </div>
                         <input type="text">
                         <input type="text" style="width: 100%;">
                     </div>
-                    <div class="grid-col"></div>
-                    <div class="grid-col"></div>
                 </div>
                 </div>
             </div>
@@ -105,7 +106,7 @@ input[type="text"], .custom-dropdown {
 }
 
 #grid-wrapper {
-    padding: 5rem;
+    padding: 5rem 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -134,7 +135,5 @@ input[type="text"], .custom-dropdown {
     position: relative;
     bottom: 0.5rem;
 }
-
-
 
 </style>

@@ -2,7 +2,7 @@
     <div>
         <div class="common-container">
             <div class="header-text-container">
-                <span class="header-text-span">회 원 정 보  수정</span>
+                <span class="underline-text">서비스 탈퇴</span>
             </div>
             <div class="details-content plus-padding">
                 <div id="write-up">

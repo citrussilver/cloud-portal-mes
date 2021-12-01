@@ -3,14 +3,13 @@
         <div class="common-container">
             <div class="buttons-wrapper">
                 <button class="common-button">조회</button>
-                <button class="common-button l-spacing">닫기</button>
             </div>
-            <div class="header-text-container">
-                <span class="header-text-span">모 니 터 링</span>
+            <div class="header-text-container colored-box-header plus-lr-margin">
+                <span class="header-text-span">업체현황</span>
             </div>
             <div class="search-criteria">
                 <div class="flex-common">
-                    <label class="common-rspacing">업체코드/명</label>
+                    <label class="r-spacing">업체코드/명</label>
                     <input type="text">
                 </div>
             </div>

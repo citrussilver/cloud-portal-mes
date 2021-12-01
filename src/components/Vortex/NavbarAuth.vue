@@ -17,7 +17,7 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- <li><router-link to="/home">Home</router-link></li> -->
-                        <li class="scroll"><router-link to="/banner">Home</router-link></li>
+                        <li class="scroll"><router-link to="/">Home</router-link></li>
                         <li class="scroll"><router-link to="/intro">제품소개</router-link></li>
                         <li class="scroll">
                             <div class="dropdown custom-dropdown">
@@ -47,7 +47,17 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="scroll"><router-link to="/about">About us</router-link></li>
+                        <li class="scroll">
+                            <div class="dropdown custom-dropdown">
+                                <li class="scroll">About us</li>
+                                <div class="dropdown-content">
+                                    <!-- About Us - Overview -->
+                                    <router-link to="/about-us">회사소개</router-link>
+                                    <!-- About Us - Contact Us -->
+                                    <router-link to="/contact">오시는길</router-link>
+                                </div>
+                            </div>
+                        </li>
                         <li class="scroll"><router-link to="/addmember">회원가입</router-link></li>
                         <li class="scroll"><router-link to="/login">로그인</router-link></li>
                         <!-- <li class="button-holder">
