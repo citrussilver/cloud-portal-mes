@@ -13,7 +13,7 @@
             <div class="b-margin"></div>
             <div class="checkbox-kr">
                 <input type="checkbox" id="agree" name="agree" value="agree">
-                <p class="s-l-spacing">개인정보 수집 및 이용 수칙에 동의합니다</p><br>
+                <p class="s-lmargin">개인정보 수집 및 이용 수칙에 동의합니다</p><br>
             </div>
             <div class="b-margin"></div>
             <p>개인,민감정보 수집 및 이용 동의</p>
@@ -26,7 +26,7 @@
             <div class="b-margin"></div>
             <div class="checkbox-kr">
                 <input type="checkbox" id="agree" name="agree" value="agree">
-                <p class="s-l-spacing">개인정보 수집 및 이용 수칙에 동의합니다</p><br>
+                <p class="s-lmargin">개인정보 수집 및 이용 수칙에 동의합니다</p><br>
             </div>
             <div class="b-margin"></div>
             <div class="details-content">
@@ -97,7 +97,6 @@
             <div class="b-margin"></div>
             <div class="buttons-wrapper">
                 <button class="common-button">가입하기</button>
-                <button class="common-button l-margin">닫기</button>
             </div>
         </div>
         </section>

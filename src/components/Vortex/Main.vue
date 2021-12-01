@@ -1,7 +1,6 @@
 <template>
   <div>
     <Banner/> 
-    <About/>
     <Story/>
     <Services/>
     <Features/>
@@ -16,7 +15,6 @@
 <script>
 
 import Banner from './Banner.vue'
-import About from './About.vue'
 import Story from './Story.vue'
 import Services from './Services.vue'
 import Features from './Features.vue'
@@ -30,7 +28,6 @@ import Modal from './Modal.vue'
 export default {
     components: {
         Banner,
-        About,
         Story,
         Services,
         Features,

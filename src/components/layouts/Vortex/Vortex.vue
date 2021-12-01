@@ -4,7 +4,7 @@
             <Navbar/>
         </header>
         <div id="main-content">
-            <slot><Main/></slot>
+            <slot></slot>
         </div>
         <footer>
             <Footer />

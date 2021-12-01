@@ -5,26 +5,26 @@
             <div class="top-form-elements">
                 <div>
                     <label for="">사용년월</label>
-                    <input type="date" class="l-spacing">
+                    <input type="date" class="lmargin-1dot5">
                 </div>
             </div>
             <!-- Generate Bill -->
              <div class="buttons-wrapper">
                     <button class="common-button">당월요금생성</button>
-                    <button class="common-button l-spacing">조회</button>
+                    <button class="common-button lmargin-1dot5">조회</button>
                 </div>
-            <div class="header-text-container">
-                <span class="header-text-span">모 니 터 링</span>
+            <div class="header-text-container colored-box-header">
+                <span class="header-text-span">사용자별 요금현황 / 요금생성</span>
             </div>
             <div class="search-criteria">
                 <div class="flex-common">
-                    <label class="common-rspacing">조회기간</label>
-                    <input type="date" class="common-rspacing">
-                    <label class="common-rspacing">~</label>
+                    <label class="r-spacing">조회기간</label>
+                    <input type="date" class="r-spacing">
+                    <label class="r-spacing">~</label>
                     <input type="date">
                 </div>
                 <div class="flex-common">
-                    <label class="common-rspacing">업체코드/명</label>
+                    <label class="r-spacing">업체코드/명</label>
                     <input type="text">
                 </div>
             </div>

@@ -5,17 +5,17 @@
                 <button class="common-button">조회</button>
             </div>
             <div class="header-text-container">
-                <span class="header-text-span">모 니 터 링</span>
+                <span class="underline-text">요 금 내 역</span>
             </div>
             <div class="search-criteria">
                 <div class="flex-common">
-                    <label class="common-rspacing">사용년월</label>
-                    <input type="date" class="common-rspacing">
-                    <label class="common-rspacing">~</label>
+                    <label class="r-spacing">조회기간</label>
+                    <input type="date" class="r-spacing">
+                    <label class="r-spacing">~</label>
                     <input type="date">
                 </div>
                 <div class="flex-common">
-                    <label class="common-rspacing">업체명: </label>
+                    <label class="r-spacing">업체명: </label>
                     <label>가나다 제조회사</label>
                 </div>
             </div>

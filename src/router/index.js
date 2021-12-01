@@ -5,7 +5,8 @@ import Intro from '../components/Vortex/Intro.vue'
 import ServiceUsage from '../components/Vortex/ServiceUsage.vue'
 import Banner from '../components/Vortex/Banner.vue'
 import Price from '../components/Vortex/Price'
-import About from '../components/Vortex/About.vue'
+import AboutUsOverview from '../views/AboutUsOverview.vue'
+import AboutUsContact from '../views/AboutUsContact.vue'
 import UserExpenseDetails from '../views/UserExpenseDetails.vue'
 import UserInfoEdit from '../views/UserInfoEdit.vue'
 import ExitService from '../views/ExitService.vue'
@@ -19,11 +20,6 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/banner',
     name: 'Banner',
     component: Banner
   },
@@ -68,9 +64,14 @@ const routes = [
     component: EnterpriseStatus
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/about-us',
+    name: 'AboutUsOverview',
+    component: AboutUsOverview
+  },
+  {
+    path: '/contact',
+    name: 'AboutUsContact',
+    component: AboutUsContact
   },
   {
     path: '/addmember',
